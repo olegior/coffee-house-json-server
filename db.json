@@ -5104,29 +5104,6 @@
           "c": "//React\n<button onClick={shoot}>Take the Shot!</button>\n//HTML\n<button onclick=\"shoot()\">Take the Shot!</button>\n"
         },
         {
-          "component": {
-            "type": "div",
-            "key": null,
-            "ref": null,
-            "props": {
-              "className": "flex flex-row justify-center content-center",
-              "children": {
-                "type": "button",
-                "key": null,
-                "ref": null,
-                "props": {
-                  "className": "button w-30 rounded-md p-3 outline-2 outline outline-activelink hover:text-activelink",
-                  "children": "Take the Shot!"
-                },
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "_owner": null,
-            "_store": {}
-          }
-        },
-        {
           "c": "function Football() {\n    const shoot = () => {\n        alert(\"Great Shot!\");\n    }\n    \n    return (\n        <button onClick={shoot}>Take the shot!</button>\n    );\n}"
         },
         {
@@ -5178,809 +5155,85 @@
           ]
         },
         {
-          "details": {
-            "type": "details",
-            "key": null,
-            "ref": null,
-            "props": {
-              "className": "px-20",
-              "children": [
-                {
-                  "type": "summary",
-                  "key": null,
-                  "ref": null,
-                  "props": {
-                    "children": "Все события"
-                  },
-                  "_owner": null,
-                  "_store": {}
-                },
-                {
-                  "type": "ul",
-                  "key": null,
-                  "ref": null,
-                  "props": {
-                    "children": [
-                      {
-                        "type": "li",
-                        "key": "0",
-                        "ref": null,
-                        "props": {
-                          "children": "onKeyDown"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "1",
-                        "ref": null,
-                        "props": {
-                          "children": "onKeyPress"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "2",
-                        "ref": null,
-                        "props": {
-                          "children": "onKeyUp"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "3",
-                        "ref": null,
-                        "props": {
-                          "children": "onFocus"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "4",
-                        "ref": null,
-                        "props": {
-                          "children": "onBlur"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "5",
-                        "ref": null,
-                        "props": {
-                          "children": "onChange"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "6",
-                        "ref": null,
-                        "props": {
-                          "children": "onInput"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "7",
-                        "ref": null,
-                        "props": {
-                          "children": "onInvalid"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "8",
-                        "ref": null,
-                        "props": {
-                          "children": "onReset"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "9",
-                        "ref": null,
-                        "props": {
-                          "children": "onSubmit"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "10",
-                        "ref": null,
-                        "props": {
-                          "children": "onError"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "11",
-                        "ref": null,
-                        "props": {
-                          "children": "onLoad"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "12",
-                        "ref": null,
-                        "props": {
-                          "children": "onClick"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "13",
-                        "ref": null,
-                        "props": {
-                          "children": "onContextMenu"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "14",
-                        "ref": null,
-                        "props": {
-                          "children": "onDoubleClick"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "15",
-                        "ref": null,
-                        "props": {
-                          "children": "onDrag"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "16",
-                        "ref": null,
-                        "props": {
-                          "children": "onDragEnd"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "17",
-                        "ref": null,
-                        "props": {
-                          "children": "onDragEnter"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "18",
-                        "ref": null,
-                        "props": {
-                          "children": "onDragExit"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "19",
-                        "ref": null,
-                        "props": {
-                          "children": "onDragLeave"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "20",
-                        "ref": null,
-                        "props": {
-                          "children": "onDragOver"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "21",
-                        "ref": null,
-                        "props": {
-                          "children": "onDragStart"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "22",
-                        "ref": null,
-                        "props": {
-                          "children": "onDrop"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "23",
-                        "ref": null,
-                        "props": {
-                          "children": "onMouseDown"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "24",
-                        "ref": null,
-                        "props": {
-                          "children": "onMouseEnter"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "25",
-                        "ref": null,
-                        "props": {
-                          "children": "onMouseLeave"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "26",
-                        "ref": null,
-                        "props": {
-                          "children": "onMouseMove"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "27",
-                        "ref": null,
-                        "props": {
-                          "children": "onMouseOut"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "28",
-                        "ref": null,
-                        "props": {
-                          "children": "onMouseOver"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "29",
-                        "ref": null,
-                        "props": {
-                          "children": "onMouseUp"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "30",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerDown"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "31",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerMove"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "32",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerUp"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "33",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerCancel"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "34",
-                        "ref": null,
-                        "props": {
-                          "children": "onGotPointerCapture"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "35",
-                        "ref": null,
-                        "props": {
-                          "children": "onLostPointerCapture"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "36",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerEnter"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "37",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerLeave"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "38",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerOver"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "39",
-                        "ref": null,
-                        "props": {
-                          "children": "onPointerOut"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "40",
-                        "ref": null,
-                        "props": {
-                          "children": "onSelect"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "41",
-                        "ref": null,
-                        "props": {
-                          "children": "onTouchCancel"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "42",
-                        "ref": null,
-                        "props": {
-                          "children": "onTouchEnd"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "43",
-                        "ref": null,
-                        "props": {
-                          "children": "onTouchMove"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "44",
-                        "ref": null,
-                        "props": {
-                          "children": "onTouchStart"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "45",
-                        "ref": null,
-                        "props": {
-                          "children": "onScroll"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "46",
-                        "ref": null,
-                        "props": {
-                          "children": "onWheel"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "47",
-                        "ref": null,
-                        "props": {
-                          "children": "onAbort"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "48",
-                        "ref": null,
-                        "props": {
-                          "children": "onCanPlay"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "49",
-                        "ref": null,
-                        "props": {
-                          "children": "onCanPlayThrough"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "50",
-                        "ref": null,
-                        "props": {
-                          "children": "onDurationChange"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "51",
-                        "ref": null,
-                        "props": {
-                          "children": "onEmptied"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "52",
-                        "ref": null,
-                        "props": {
-                          "children": "onEncrypted"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "53",
-                        "ref": null,
-                        "props": {
-                          "children": "onEnded"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "54",
-                        "ref": null,
-                        "props": {
-                          "children": "onError"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "55",
-                        "ref": null,
-                        "props": {
-                          "children": "onLoadedData"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "56",
-                        "ref": null,
-                        "props": {
-                          "children": "onLoadedMetadata"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "57",
-                        "ref": null,
-                        "props": {
-                          "children": "onLoadStart"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "58",
-                        "ref": null,
-                        "props": {
-                          "children": "onPause"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "59",
-                        "ref": null,
-                        "props": {
-                          "children": "onPlay"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "60",
-                        "ref": null,
-                        "props": {
-                          "children": "onPlaying"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "61",
-                        "ref": null,
-                        "props": {
-                          "children": "onProgress"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "62",
-                        "ref": null,
-                        "props": {
-                          "children": "onRateChange"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "63",
-                        "ref": null,
-                        "props": {
-                          "children": "onSeeked"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "64",
-                        "ref": null,
-                        "props": {
-                          "children": "onSeeking"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "65",
-                        "ref": null,
-                        "props": {
-                          "children": "onStalled"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "66",
-                        "ref": null,
-                        "props": {
-                          "children": "onSuspend"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "67",
-                        "ref": null,
-                        "props": {
-                          "children": "onTimeUpdate"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "68",
-                        "ref": null,
-                        "props": {
-                          "children": "onVolumeChange"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "69",
-                        "ref": null,
-                        "props": {
-                          "children": "onWaiting"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "70",
-                        "ref": null,
-                        "props": {
-                          "children": "onLoad"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "71",
-                        "ref": null,
-                        "props": {
-                          "children": "onError"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "72",
-                        "ref": null,
-                        "props": {
-                          "children": "onAnimationStart"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "73",
-                        "ref": null,
-                        "props": {
-                          "children": "onAnimationEnd"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "74",
-                        "ref": null,
-                        "props": {
-                          "children": "onAnimationIteration"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "75",
-                        "ref": null,
-                        "props": {
-                          "children": "onTransitionEnd"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      },
-                      {
-                        "type": "li",
-                        "key": "76",
-                        "ref": null,
-                        "props": {
-                          "children": "onToggle"
-                        },
-                        "_owner": null,
-                        "_store": {}
-                      }
-                    ]
-                  },
-                  "_owner": null,
-                  "_store": {}
-                }
-              ]
-            },
-            "_owner": null,
-            "_store": {}
-          }
+          "p": "Список всех событий:"
+        },
+        {
+          "l": [
+            "onKeyDown",
+            "onKeyPress",
+            "onKeyUp",
+            "onFocus",
+            "onBlur",
+            "onChange",
+            "onInput",
+            "onInvalid",
+            "onReset",
+            "onSubmit",
+            "onError",
+            "onLoad",
+            "onClick",
+            "onContextMenu",
+            "onDoubleClick",
+            "onDrag",
+            "onDragEnd",
+            "onDragEnter",
+            "onDragExit",
+            "onDragLeave",
+            "onDragOver",
+            "onDragStart",
+            "onDrop",
+            "onMouseDown",
+            "onMouseEnter",
+            "onMouseLeave",
+            "onMouseMove",
+            "onMouseOut",
+            "onMouseOver",
+            "onMouseUp",
+            "onPointerDown",
+            "onPointerMove",
+            "onPointerUp",
+            "onPointerCancel",
+            "onGotPointerCapture",
+            "onLostPointerCapture",
+            "onPointerEnter",
+            "onPointerLeave",
+            "onPointerOver",
+            "onPointerOut",
+            "onSelect",
+            "onTouchCancel",
+            "onTouchEnd",
+            "onTouchMove",
+            "onTouchStart",
+            "onScroll",
+            "onWheel",
+            "onAbort",
+            "onCanPlay",
+            "onCanPlayThrough",
+            "onDurationChange",
+            "onEmptied",
+            "onEncrypted",
+            "onEnded",
+            "onLoadedData",
+            "onLoadedMetadata",
+            "onLoadStart",
+            "onPause",
+            "onPlay",
+            "onPlaying",
+            "onProgress",
+            "onRateChange",
+            "onSeeked",
+            "onSeeking",
+            "onStalled",
+            "onSuspend",
+            "onTimeUpdate",
+            "onVolumeChange",
+            "onWaiting",
+            "onAnimationStart",
+            "onAnimationEnd",
+            "onAnimationIteration",
+            "onTransitionEnd",
+            "onToggle"
+          ]
         }
       ]
     },
