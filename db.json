@@ -5729,6 +5729,37 @@
           "c": "class NameForm extends React.Component {\n    constructor(props) {\n        super(props);\n        this.handleSubmit = this.handleSubmit.bind(this);\n        this.input = React.createRef();\n    }\n    \n    handleSubmit(event) {\n        alert('Отправленное имя: ' + this.input.current.value);\n        event.preventDefault();\n    }\n    \n    render() {\n        return (\n        <form onSubmit={this.handleSubmit}>\n            <label>Имя:<input type=\"text\" ref={this.input} /></label>\n            <input type=\"submit\" value=\"Отправить\" />\n        </form>\n        );\n    }\n}"
         }
       ]
+    },
+    {
+      "path": "egorka",
+      "title": "JAGR32",
+      "content": [
+        {
+          "h": "Эта страница посвящена Егорке"
+        },
+        {
+          "p": "Егорка кабанчик"
+        },
+        {
+          "p": "Егорка также известен как (AKA):"
+        },
+        {
+          "l": [
+            "Ведерко",
+            "Кабанчик",
+            "Терминатор"
+          ]
+        },
+        {
+          "p": "Проще всего объявить React-компонент как функцию:"
+        },
+        {
+          "c": "function JAGR(props) {\n    return <h1> Привет, {props.name} GO CS 2</h1>;\n}"
+        },
+        {
+          "w": "Позвони Свете"
+        }
+      ]
     }
   ]
 }
